@@ -1,0 +1,9 @@
+class car:
+    base_price=2000000 ##CLass Variables 
+    def _init_(self,windows,doors,power):
+        self.windows=windows
+        self.doors=doors
+        self.power=power
+    def what_base_price(self):
+    print("The base price is{}".format(self.bace_price))
+    
